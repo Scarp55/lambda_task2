@@ -1,0 +1,6 @@
+package lambda_task2;
+
+@FunctionalInterface
+public interface OnTaskDoneListener {
+	void onDone(String result);
+}
